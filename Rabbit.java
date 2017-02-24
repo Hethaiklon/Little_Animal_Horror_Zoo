@@ -14,6 +14,9 @@ public class Rabbit{
             rYPosition--;
             System.out.println("Ow! I, the " + name + " hit a wall at " + rXPosition + "," + rYPosition);
         }
+         else {
+        System.out.println("The " + name + " is in " + rXPosition + "," + rYPosition);
+        }
     }
 
     public void moveDown(){
@@ -21,6 +24,9 @@ public class Rabbit{
         if (this.rYPosition == 0) {
             rYPosition++;
             System.out.println("Ow! I, the " + name + " hit a wall at " + rXPosition + "," + rYPosition);
+        }
+        else {
+        System.out.println("The " + name + " is in " + rXPosition + "," + rYPosition);
         }
     }
     
@@ -30,6 +36,9 @@ public class Rabbit{
             rXPosition--;
             System.out.println("Ow! I, the " + name + " hit a wall at " + rXPosition + "," + rYPosition);
         }
+        else {
+        System.out.println("The " + name + " is in " + rXPosition + "," + rYPosition);
+        }
     }
     
     public void moveLeft(){
@@ -37,6 +46,9 @@ public class Rabbit{
          if (this.rXPosition == 0) {
             rXPosition++;
             System.out.println("Ow! I, the " + name + " hit a wall at " + rXPosition + "," + rYPosition);
+        }
+        else {
+        System.out.println("The " + name + " is in " + rXPosition + "," + rYPosition);
         }
     }
     public void printPosition() {
